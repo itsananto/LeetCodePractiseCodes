@@ -11,6 +11,7 @@ namespace LeetCode
         static void Main(string[] args)
         {
             new UniqueMorseRepresentationsSolution();
+            new MaxIncreaseKeepingSkylineSolution();
             Console.ReadLine();
         }
     }
