@@ -45,6 +45,8 @@
     <Compile Include="Helpers\ExtensionHelper.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
     <Compile Include="Problems\MaxIncreaseKeepingSkylineSolution.cs" />
+    <Compile Include="Problems\NumberOfLinesSolution.cs" />
+    <Compile Include="Problems\PartitionLabelsSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\TreeNode.cs" />
