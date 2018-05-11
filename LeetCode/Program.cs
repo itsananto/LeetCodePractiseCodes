@@ -15,6 +15,8 @@ namespace LeetCode
             new MaxIncreaseKeepingSkylineSolution();
             new AllPathsSourceTargetSolution();
             Console.ReadLine();
+            new PartitionLabelsSolution();
+            new NumberOfLinesSolution();
         }
     }
 }
