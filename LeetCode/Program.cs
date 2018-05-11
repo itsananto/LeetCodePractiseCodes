@@ -13,6 +13,7 @@ namespace LeetCode
         {
             new UniqueMorseRepresentationsSolution();
             new MaxIncreaseKeepingSkylineSolution();
+            new AllPathsSourceTargetSolution();
             Console.ReadLine();
         }
     }
