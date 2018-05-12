@@ -16,6 +16,7 @@ namespace LeetCode
             new AllPathsSourceTargetSolution();
             new PartitionLabelsSolution();
             new NumberOfLinesSolution();
+            new ShortestToCharSolution();
         }
     }
 }
