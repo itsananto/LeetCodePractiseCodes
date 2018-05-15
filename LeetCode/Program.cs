@@ -17,6 +17,7 @@ namespace LeetCode
             new PartitionLabelsSolution();
             new NumberOfLinesSolution();
             new ShortestToCharSolution();
+            new CustomSortStringSolution();
         }
     }
 }
