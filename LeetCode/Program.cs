@@ -18,6 +18,7 @@ namespace LeetCode
             new NumberOfLinesSolution();
             new ShortestToCharSolution();
             new CustomSortStringSolution();
+            new IsToeplitzMatrixSolution();
         }
     }
 }
