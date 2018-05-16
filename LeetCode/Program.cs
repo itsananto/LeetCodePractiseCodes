@@ -19,6 +19,7 @@ namespace LeetCode
             new ShortestToCharSolution();
             new CustomSortStringSolution();
             new IsToeplitzMatrixSolution();
+            new CountPrimeSetBitsSolution();
         }
     }
 }
