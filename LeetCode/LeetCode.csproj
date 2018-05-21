@@ -47,8 +47,10 @@
     <Compile Include="Problems\AllPathsSourceTargetSolution.cs" />
     <Compile Include="Problems\CountPrimeSetBitsSolution.cs" />
     <Compile Include="Problems\CustomSortStringSolution.cs" />
+    <Compile Include="Problems\DailyTemperaturesSolution.cs" />
     <Compile Include="Problems\FlipAndInvertImageSolution.cs" />
     <Compile Include="Problems\IsToeplitzMatrixSolution.cs" />
+    <Compile Include="Problems\LargestTriangleAreaSolution.cs" />
     <Compile Include="Problems\MaxIncreaseKeepingSkylineSolution.cs" />
     <Compile Include="Problems\PruneTreeSolution.cs" />
     <Compile Include="Problems\NumberOfLinesSolution.cs" />

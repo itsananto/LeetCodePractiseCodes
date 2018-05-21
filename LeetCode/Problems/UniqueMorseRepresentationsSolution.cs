@@ -13,7 +13,6 @@ namespace LeetCode.Problems
         public UniqueMorseRepresentationsSolution()
         {
             int output = UniqueMorseRepresentations(input);
-            Console.WriteLine(output);
         }
 
         //accepted
