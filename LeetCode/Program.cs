@@ -20,6 +20,7 @@ namespace LeetCode
             new CustomSortStringSolution();
             new IsToeplitzMatrixSolution();
             new CountPrimeSetBitsSolution();
+            new OptimalDivisionSolution();
         }
     }
 }
