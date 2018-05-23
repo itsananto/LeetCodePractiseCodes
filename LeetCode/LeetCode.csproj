@@ -51,6 +51,7 @@
     <Compile Include="Problems\FlipAndInvertImageSolution.cs" />
     <Compile Include="Problems\IsToeplitzMatrixSolution.cs" />
     <Compile Include="Problems\LargestTriangleAreaSolution.cs" />
+    <Compile Include="Problems\LetterCasePermutationSolution.cs" />
     <Compile Include="Problems\MaxIncreaseKeepingSkylineSolution.cs" />
     <Compile Include="Problems\OptimalDivisionSolution.cs" />
     <Compile Include="Problems\PruneTreeSolution.cs" />

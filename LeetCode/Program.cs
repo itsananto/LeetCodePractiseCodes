@@ -23,6 +23,7 @@ namespace LeetCode
             new OptimalDivisionSolution();
             new DailyTemperaturesSolution();
             new LargestTriangleAreaSolution();
+            new LetterCasePermutationSolution();
         }
     }
 }
