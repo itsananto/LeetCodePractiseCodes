@@ -21,6 +21,8 @@ namespace LeetCode
             new IsToeplitzMatrixSolution();
             new CountPrimeSetBitsSolution();
             new OptimalDivisionSolution();
+            new DailyTemperaturesSolution();
+            new LargestTriangleAreaSolution();
         }
     }
 }
