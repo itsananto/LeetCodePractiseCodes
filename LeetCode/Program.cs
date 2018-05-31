@@ -24,6 +24,7 @@ namespace LeetCode
             new DailyTemperaturesSolution();
             new LargestTriangleAreaSolution();
             new LetterCasePermutationSolution();
+            new ShortestCompletingWordSolution();
         }
     }
 }

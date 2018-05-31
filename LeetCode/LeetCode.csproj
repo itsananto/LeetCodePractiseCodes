@@ -57,6 +57,8 @@
     <Compile Include="Problems\PruneTreeSolution.cs" />
     <Compile Include="Problems\NumberOfLinesSolution.cs" />
     <Compile Include="Problems\PartitionLabelsSolution.cs" />
+    <Compile Include="Problems\RotateStringSolution.cs" />
+    <Compile Include="Problems\ShortestCompletingWordSolution.cs" />
     <Compile Include="Problems\ShortestToCharSolution.cs" />
     <Compile Include="Problems\SubdomainVisitsSolution.cs" />
     <Compile Include="Problems\ToGoatLatinSolution.cs" />
