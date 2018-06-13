@@ -25,6 +25,11 @@ namespace LeetCode
             new LargestTriangleAreaSolution();
             new LetterCasePermutationSolution();
             new ShortestCompletingWordSolution();
+            new EscapeGhostsSolution();
+            new NumComponentsSolution();
+            new BackspaceCompareSolution();
+            new MyCalendarThreeSolution();
+            new MostCommonWordSolution();
         }
     }
 }
