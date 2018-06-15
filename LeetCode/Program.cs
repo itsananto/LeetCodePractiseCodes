@@ -30,6 +30,11 @@ namespace LeetCode
             new BackspaceCompareSolution();
             new MyCalendarThreeSolution();
             new MostCommonWordSolution();
+            new MinSwapsCouplesSolution();
+            new MaxChunksToSortedSolution();
+            new MinDiffInBSTSolution();
+            new TotalNQueensSolution();
+            new SplitListToPartsSolution();
         }
     }
 }
