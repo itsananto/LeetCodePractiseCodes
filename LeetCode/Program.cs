@@ -11,30 +11,10 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new UniqueMorseRepresentationsSolution();
-            new MaxIncreaseKeepingSkylineSolution();
-            new AllPathsSourceTargetSolution();
-            new PartitionLabelsSolution();
-            new NumberOfLinesSolution();
-            new ShortestToCharSolution();
-            new CustomSortStringSolution();
-            new IsToeplitzMatrixSolution();
-            new CountPrimeSetBitsSolution();
-            new OptimalDivisionSolution();
-            new DailyTemperaturesSolution();
-            new LargestTriangleAreaSolution();
-            new LetterCasePermutationSolution();
-            new ShortestCompletingWordSolution();
-            new EscapeGhostsSolution();
-            new NumComponentsSolution();
-            new BackspaceCompareSolution();
-            new MyCalendarThreeSolution();
-            new MostCommonWordSolution();
-            new MinSwapsCouplesSolution();
-            new MaxChunksToSortedSolution();
-            new MinDiffInBSTSolution();
-            new TotalNQueensSolution();
-            new SplitListToPartsSolution();
+            new MaxProfitSolution();
+            new ScoreOfParenthesesSolution();
+            new PeakIndexInMountainArraySolution();
+            new PyramidTransitionSolution();
         }
     }
 }
