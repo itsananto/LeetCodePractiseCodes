@@ -67,6 +67,8 @@
     <Compile Include="Problems\MinSwapsCouplesSolution.cs" />
     <Compile Include="Problems\MostCommonWordSolution.cs" />
     <Compile Include="Problems\MyCalendarThree.cs" />
+    <Compile Include="Problems\MyCircularDeque.cs" />
+    <Compile Include="Problems\MyCircularQueue.cs" />
     <Compile Include="Problems\NumComponentsSolution.cs" />
     <Compile Include="Problems\OptimalDivisionSolution.cs" />
     <Compile Include="Problems\PeakIndexInMountainArraySolution.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Problems\SplitListToPartsSolution.cs" />
     <Compile Include="Problems\SubdomainVisitsSolution.cs" />
     <Compile Include="Problems\ToGoatLatinSolution.cs" />
+    <Compile Include="Problems\ToLowerCaseSolution.cs" />
     <Compile Include="Problems\TotalNQueensSolution.cs" />
     <Compile Include="Problems\TransposeSolution.cs" />
     <Compile Include="Program.cs" />
