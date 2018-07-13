@@ -10,14 +10,41 @@ namespace LeetCode.Problems
     {
         public bool LemonadeChange(int[] bills)
         {
-            int cash = 0;
+            int five = 0;
+            int ten = 0;
 
             foreach (int c in bills)
             {
-                int toRet = c - 5;
-                if (cash < toRet) return false;
 
-                cash += 5;
+                if (c == 5) five++;
+                else if (c == 10)
+                {
+                    ten++;
+                    if (five >=1)
+                    {
+                        five--;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    if(five>=1 && ten >= 1)
+                    {
+                        five--;
+                        ten--;
+                    }
+                    else if(five>=3)
+                    {
+                        five -= 3;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
             }
 
             return true;
