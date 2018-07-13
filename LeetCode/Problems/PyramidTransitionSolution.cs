@@ -11,7 +11,7 @@ namespace LeetCode.Problems
         public PyramidTransitionSolution()
         {
             PyramidTransition("XXYX", new string[] { "XXX", "XXY", "XYX", "XYY", "YXZ" });
-            PyramidTransition("XYZ", new string[] { "XYD", "YZE" });
+            //PyramidTransition("XYZ", new string[] { "XYD", "YZE" });
         }
 
         Dictionary<string, string> dict = new Dictionary<string, string>();
@@ -21,14 +21,13 @@ namespace LeetCode.Problems
             if (bottom.Length == 1) return true;
 
             IList<string> newBottomList = new List<string>();
-            IList<string> tempBottomList = new List<string>();
+            IList<string> tempBottomList;
 
             for (int i = 0; i < bottom.Length - 1; i++)
             {
                 string triangleBase = bottom.Substring(i, 2);
 
-                tempBottomList.Clear();
-                tempBottomList = newBottomList;
+                tempBottomList = new List<string>(newBottomList);
                 newBottomList.Clear();
 
                 if (dict.ContainsKey(triangleBase))
@@ -61,9 +60,10 @@ namespace LeetCode.Problems
             }
 
             bool flag = false;
-            foreach (var b in newBottomList)
+            foreach (var b in newBottomList.Distinct())
             {
-                flag =flag || CanConstructPyramid(b);
+                flag = flag || CanConstructPyramid(b);
+                if (flag) break;
             }
 
             return flag;
@@ -71,6 +71,8 @@ namespace LeetCode.Problems
 
         public bool PyramidTransition(string bottom, IList<string> allowed)
         {
+            dict.Clear();
+
             foreach (var triangle in allowed)
             {
                 string first = triangle.Substring(0, 2);
@@ -84,24 +86,6 @@ namespace LeetCode.Problems
                 else
                 {
                     dict[first] = triangle.Substring(2, 1);
-                }
-
-                if (dict.ContainsKey(second))
-                {
-                    dict[second] = dict[second] + triangle.Substring(1, 1);
-                }
-                else
-                {
-                    dict[first] = triangle.Substring(1, 1);
-                }
-
-                if (dict.ContainsKey(third))
-                {
-                    dict[third] = dict[third] + triangle.Substring(0, 1);
-                }
-                else
-                {
-                    dict[third] = triangle.Substring(0, 1);
                 }
             }
 

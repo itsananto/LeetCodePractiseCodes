@@ -11,10 +11,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new MaxProfitSolution();
-            new ScoreOfParenthesesSolution();
-            new PeakIndexInMountainArraySolution();
-            new PyramidTransitionSolution();
+            new MatrixScoreSolution();
         }
     }
 }
