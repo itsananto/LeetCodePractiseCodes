@@ -82,6 +82,7 @@
     <Compile Include="Problems\ShortestToCharSolution.cs" />
     <Compile Include="Problems\SplitListToPartsSolution.cs" />
     <Compile Include="Problems\SubdomainVisitsSolution.cs" />
+    <Compile Include="Problems\SubtreeWithAllDeepestSolution.cs" />
     <Compile Include="Problems\ToGoatLatinSolution.cs" />
     <Compile Include="Problems\ToLowerCaseSolution.cs" />
     <Compile Include="Problems\TotalNQueensSolution.cs" />
