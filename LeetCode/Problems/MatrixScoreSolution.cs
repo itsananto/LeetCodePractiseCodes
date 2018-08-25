@@ -107,7 +107,6 @@ namespace LeetCode.Problems
                 print(A);
             }
 
-            int val = 0;
             int mult = 1;
 
             for (int i = 0; i < A.Length; i++)

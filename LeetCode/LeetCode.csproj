@@ -42,12 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStructures\Node.cs" />
     <Compile Include="Helpers\CodeSnippet.cs" />
     <Compile Include="Helpers\ExtensionHelper.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
+    <Compile Include="Problems\BinaryGapSolution.cs" />
+    <Compile Include="Problems\DecodeAtIndexSolution.cs" />
     <Compile Include="Problems\FloodFillSolution.cs" />
     <Compile Include="Problems\LargeGroupPositionsSolution.cs" />
+    <Compile Include="Problems\LeafSimilarSolution.cs" />
     <Compile Include="Problems\LemonadeChangeSolution.cs" />
+    <Compile Include="Problems\LevelOrderSolution.cs" />
     <Compile Include="Problems\MatrixScoreSolution.cs" />
     <Compile Include="Problems\MaxChunksToSortedSolution.cs" />
     <Compile Include="Problems\AllPathsSourceTargetSolution.cs" />
@@ -61,8 +66,10 @@
     <Compile Include="Problems\IsToeplitzMatrixSolution.cs" />
     <Compile Include="Problems\LargestTriangleAreaSolution.cs" />
     <Compile Include="Problems\LetterCasePermutationSolution.cs" />
+    <Compile Include="Problems\MaxDepthSolution.cs" />
     <Compile Include="Problems\MaxIncreaseKeepingSkylineSolution.cs" />
     <Compile Include="Problems\MaxProfitSolution.cs" />
+    <Compile Include="Problems\MiddleNodeSolution.cs" />
     <Compile Include="Problems\MinDiffInBSTSolution.cs" />
     <Compile Include="Problems\MinSwapsCouplesSolution.cs" />
     <Compile Include="Problems\MostCommonWordSolution.cs" />
@@ -70,17 +77,23 @@
     <Compile Include="Problems\MyCircularDeque.cs" />
     <Compile Include="Problems\MyCircularQueue.cs" />
     <Compile Include="Problems\NumComponentsSolution.cs" />
+    <Compile Include="Problems\NumRescueBoatsSolution.cs" />
     <Compile Include="Problems\OptimalDivisionSolution.cs" />
     <Compile Include="Problems\PeakIndexInMountainArraySolution.cs" />
+    <Compile Include="Problems\PostorderSolution.cs" />
+    <Compile Include="Problems\ProjectionAreaSolution.cs" />
     <Compile Include="Problems\PruneTreeSolution.cs" />
     <Compile Include="Problems\NumberOfLinesSolution.cs" />
     <Compile Include="Problems\PartitionLabelsSolution.cs" />
     <Compile Include="Problems\PyramidTransitionSolution.cs" />
+    <Compile Include="Problems\ReorderedPowerOf2Solution.cs" />
     <Compile Include="Problems\RotateStringSolution.cs" />
     <Compile Include="Problems\ScoreOfParenthesesSolution.cs" />
+    <Compile Include="Problems\SearchBSTSolution.cs" />
     <Compile Include="Problems\ShortestCompletingWordSolution.cs" />
     <Compile Include="Problems\ShortestToCharSolution.cs" />
     <Compile Include="Problems\SplitListToPartsSolution.cs" />
+    <Compile Include="Problems\StoneGameSolution.cs" />
     <Compile Include="Problems\SubdomainVisitsSolution.cs" />
     <Compile Include="Problems\SubtreeWithAllDeepestSolution.cs" />
     <Compile Include="Problems\ToGoatLatinSolution.cs" />
