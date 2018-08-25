@@ -46,6 +46,7 @@
     <Compile Include="Helpers\CodeSnippet.cs" />
     <Compile Include="Helpers\ExtensionHelper.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
+    <Compile Include="Problems\FindAndReplacePatternSolution.cs" />
     <Compile Include="Problems\BinaryGapSolution.cs" />
     <Compile Include="Problems\DecodeAtIndexSolution.cs" />
     <Compile Include="Problems\FloodFillSolution.cs" />
