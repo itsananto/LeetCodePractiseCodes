@@ -50,6 +50,7 @@
     <Compile Include="Problems\BinaryGapSolution.cs" />
     <Compile Include="Problems\DecodeAtIndexSolution.cs" />
     <Compile Include="Problems\FloodFillSolution.cs" />
+    <Compile Include="Problems\IsMatchSolution.cs" />
     <Compile Include="Problems\LargeGroupPositionsSolution.cs" />
     <Compile Include="Problems\LeafSimilarSolution.cs" />
     <Compile Include="Problems\LemonadeChangeSolution.cs" />
