@@ -11,11 +11,13 @@ namespace LeetCode.Problems
         public char character;
         public List<Automata> nextList;
         public bool isFinished;
+        public bool isVisited;
 
         public Automata(char ch, bool flag)
         {
             character = ch;
             isFinished = flag;
+            isVisited = false;
             nextList = new List<Automata>();
         }
     }
@@ -24,7 +26,8 @@ namespace LeetCode.Problems
     {
         public IsMatchSolution()
         {
-            IsMatch("sip", "s*p");
+            //IsMatch("sip", "s*p");
+            IsMatch("b", "c*b");
         }
 
         Automata GenerateAutomata(string p)
@@ -56,7 +59,15 @@ namespace LeetCode.Problems
             {
                 if (head.isFinished && position == s.Length - 1 && (s[position] == head.character || head.character == '.')) return true;
 
-                if(!(s[position] == head.character || head.character == '.')) return false;
+                if (head.nextList.Count == 1)
+                {
+                    if (!(s[position] == head.character || head.character == '.')) return false;
+                }
+                else
+                {
+                    if ((position!=0 && s[position] != s[position - 1]) || (s[position] != head.character && head.character != '.')) return false;
+                }
+
 
                 bool flag = false;
                 foreach (var next in head.nextList)
