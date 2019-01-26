@@ -46,11 +46,14 @@
     <Compile Include="Helpers\CodeSnippet.cs" />
     <Compile Include="Helpers\ExtensionHelper.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
+    <Compile Include="Problems\DeckRevealedIncreasingSolution.cs" />
     <Compile Include="Problems\FindAndReplacePatternSolution.cs" />
     <Compile Include="Problems\BinaryGapSolution.cs" />
     <Compile Include="Problems\DecodeAtIndexSolution.cs" />
     <Compile Include="Problems\FloodFillSolution.cs" />
+    <Compile Include="Problems\InsertIntoBSTSolution.cs" />
     <Compile Include="Problems\IsMatchSolution.cs" />
+    <Compile Include="Problems\IsMatchSolution2.cs" />
     <Compile Include="Problems\LargeGroupPositionsSolution.cs" />
     <Compile Include="Problems\LeafSimilarSolution.cs" />
     <Compile Include="Problems\LemonadeChangeSolution.cs" />

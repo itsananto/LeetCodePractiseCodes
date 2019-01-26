@@ -11,7 +11,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new IsMatchSolution();
+            new IsMatchSolution2();
         }
     }
 }
