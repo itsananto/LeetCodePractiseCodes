@@ -1,4 +1,5 @@
-﻿using LeetCode.Problems;
+﻿using LeetCode.DataStructures;
+using LeetCode.Problems;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            new IsMatchSolution2();
+            new FlattenSolution(new TreeNode(new object[] { 1, 2, null, 3}));
+            Console.ReadLine();
         }
     }
 }

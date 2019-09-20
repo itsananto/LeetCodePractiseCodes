@@ -46,11 +46,16 @@
     <Compile Include="Helpers\CodeSnippet.cs" />
     <Compile Include="Helpers\ExtensionHelper.cs" />
     <Compile Include="DataStructures\ListNode.cs" />
+    <Compile Include="Problems\CountTripletsSolution.cs" />
     <Compile Include="Problems\DeckRevealedIncreasingSolution.cs" />
+    <Compile Include="Problems\DefangIPaddrSolution.cs" />
     <Compile Include="Problems\FindAndReplacePatternSolution.cs" />
     <Compile Include="Problems\BinaryGapSolution.cs" />
     <Compile Include="Problems\DecodeAtIndexSolution.cs" />
+    <Compile Include="Problems\FindMedianSortedArraysSolution.cs" />
+    <Compile Include="Problems\FlattenSolution.cs" />
     <Compile Include="Problems\FloodFillSolution.cs" />
+    <Compile Include="Problems\FreqStack.cs" />
     <Compile Include="Problems\InsertIntoBSTSolution.cs" />
     <Compile Include="Problems\IsMatchSolution.cs" />
     <Compile Include="Problems\IsMatchSolution2.cs" />
@@ -75,12 +80,14 @@
     <Compile Include="Problems\MaxIncreaseKeepingSkylineSolution.cs" />
     <Compile Include="Problems\MaxProfitSolution.cs" />
     <Compile Include="Problems\MiddleNodeSolution.cs" />
+    <Compile Include="Problems\MinDeletionSizeSolution.cs" />
     <Compile Include="Problems\MinDiffInBSTSolution.cs" />
     <Compile Include="Problems\MinSwapsCouplesSolution.cs" />
     <Compile Include="Problems\MostCommonWordSolution.cs" />
     <Compile Include="Problems\MyCalendarThree.cs" />
     <Compile Include="Problems\MyCircularDeque.cs" />
     <Compile Include="Problems\MyCircularQueue.cs" />
+    <Compile Include="Problems\NearestPalindromicSolution.cs" />
     <Compile Include="Problems\NumComponentsSolution.cs" />
     <Compile Include="Problems\NumRescueBoatsSolution.cs" />
     <Compile Include="Problems\OptimalDivisionSolution.cs" />
@@ -92,6 +99,7 @@
     <Compile Include="Problems\PartitionLabelsSolution.cs" />
     <Compile Include="Problems\PyramidTransitionSolution.cs" />
     <Compile Include="Problems\ReorderedPowerOf2Solution.cs" />
+    <Compile Include="Problems\ReverseWordsSolution.cs" />
     <Compile Include="Problems\RotateStringSolution.cs" />
     <Compile Include="Problems\ScoreOfParenthesesSolution.cs" />
     <Compile Include="Problems\SearchBSTSolution.cs" />
@@ -105,6 +113,7 @@
     <Compile Include="Problems\ToLowerCaseSolution.cs" />
     <Compile Include="Problems\TotalNQueensSolution.cs" />
     <Compile Include="Problems\TransposeSolution.cs" />
+    <Compile Include="Problems\UniquePathsIIISolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\TreeNode.cs" />

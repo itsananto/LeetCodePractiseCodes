@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Problems
 {
-    class Regex
+    private class Regex
     {
         public char Character { get; set; }
         public Regex Next { get; set; }
